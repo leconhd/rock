@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+#choice {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.bigger {
+    height: 180px;
+    width: 180px;
+}
+
+#computerschoice {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 80px;
+    margin: 40px auto;
+}
+
+#results {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+    border: 3px solid gold;
+}
+
+#player,
+#computer {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}

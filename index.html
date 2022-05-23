@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="rps.js" async></script>
     <title>Document</title>
 </head>
 <body>
+    <h1>Infamous ROCK, PAPER, SCISSORS</h1>
+    <br>
+    <h3>It's your choice:</h3>
+    <div id="choice">
+        <input type="image" id="rock" src="img/rock.svg" height="120" width="120"/> 
+        <input type ="image" id="paper" src="img/paper.svg" height="120" width="120"/> 
+        <input type ="image" id="scissors" src="img/scissors.svg" height="120" width="120"/>
+    </div> 
+
+    <h3>Computer's choice:</h3>
+    <div id="computerschoice"></div>
+
+    <div id="results">
+        <div id="player">
+            <h5>Player:</h5>
+            <p class="score">0</p>
+        </div>
+        <div id="computer">
+            <h5>Computer:</h5>
+            <p class="score">0</p>
+        </div>
+    </div>
+    <div id="winner"></div>
+    <br><br>
     <button id="btn">Start over</button>
 </body>
 </html>
